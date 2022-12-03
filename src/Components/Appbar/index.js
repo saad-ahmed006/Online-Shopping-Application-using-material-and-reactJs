@@ -9,7 +9,7 @@ export default function Appbar() {
   const matches = useMediaQuery(theme.breakpoints.down('md'));
   return (
     <>
-      {matches ? <AppbarMobile matches={matches} /> : <AppbarDestop  />}
+      {matches ? <AppbarMobile matches={matches} /> : <AppbarDestop />}
     </>
   )
 }

@@ -1,24 +1,24 @@
-import { Container,  } from '@mui/material';
+import { Container, } from '@mui/material';
 import { useEffect } from 'react';
 // import theme from './Styles/theme';
 import './App.css';
 import Appbar from './Components/Appbar';
+import Bannar from './Components/Bannar';
 
 function App() {
-  useEffect(()=>{
-    document.title="React-material-Home-Page"
-  },[])
+  useEffect(() => {
+    document.title = "React-material-Home-Page"
+  }, [])
   return (
     <>
-    {/* <ThemeProvider theme={theme}> */}
-    <Container
-     >
-<Appbar/>
-{/* <Button  variant='contained'>Test</Button> */}
-    </Container>
-    {/* </ThemeProvider> */}
-   </>
-    );
+
+      <Container>
+        <Appbar />
+        <Bannar/>
+      </Container>
+
+    </>
+  );
 }
 
 export default App;

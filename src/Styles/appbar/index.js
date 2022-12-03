@@ -15,15 +15,15 @@ export const AppbarHeader = styled(Typography)(() => ({
     padding: "4px",
     fontFamily: '"Montez","cursive"',
     fontSize: "4em",
-    color: Colors.secondary, 
+    color: Colors.secondary,
     flexGrow: 1,
 
 }))
 
 
-export const MyList = styled(List)(({type}) => ({
-    display:type  === 'row' ? 'flex' : 'block',
-        flexGrow: 3,
+export const MyList = styled(List)(({ type }) => ({
+    display: type === 'row' ? 'flex' : 'block',
+    flexGrow: 3,
     justifyContent: "space-evenly",
     alignItems: "center",
     // color: "black"
@@ -37,12 +37,12 @@ export const ActionIconsContainerMobile = styled(Box)(() => ({
     left: 0,
     width: '100%',
     alignItems: 'center',
-    zIndex: 99,  
+    zIndex: 99,
     borderTop: `1px solid ${Colors.border}`
 
 }))
 export const ActionIconsContainerDextop = styled(Box)(() => ({
-    flexGrow:0
+    flexGrow: 0
 }))
 
 
