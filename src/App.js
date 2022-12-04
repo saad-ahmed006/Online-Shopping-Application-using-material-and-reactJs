@@ -4,6 +4,7 @@ import { useEffect } from 'react';
 import './App.css';
 import Appbar from './Components/Appbar';
 import Bannar from './Components/Bannar';
+import Promotion from './Components/Promotion';
 
 function App() {
   useEffect(() => {
@@ -15,6 +16,7 @@ function App() {
       <Container>
         <Appbar />
         <Bannar/>
+        <Promotion/>
       </Container>
 
     </>

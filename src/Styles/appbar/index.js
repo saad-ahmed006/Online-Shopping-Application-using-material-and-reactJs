@@ -26,7 +26,6 @@ export const MyList = styled(List)(({ type }) => ({
     flexGrow: 3,
     justifyContent: "space-evenly",
     alignItems: "center",
-    // color: "black"
 
 }))
 export const ActionIconsContainerMobile = styled(Box)(() => ({
@@ -38,8 +37,7 @@ export const ActionIconsContainerMobile = styled(Box)(() => ({
     width: '100%',
     alignItems: 'center',
     zIndex: 99,
-    borderTop: `1px solid ${Colors.border}`
-
+    borderTop: `1px solid ${Colors.border}`,
 }))
 export const ActionIconsContainerDextop = styled(Box)(() => ({
     flexGrow: 0

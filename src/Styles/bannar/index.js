@@ -18,10 +18,11 @@ export const BannarImage = styled('img')(({ src, theme }) => ({
   src: `url(${src})`,
   width: "400px",
   height: "350px",
-  [theme.breakpoints.down("sm")]: {
+  [theme.breakpoints.down("md")]: {
     width: "320px",
     height: "300px"
-  }
+  },
+
 }))
 export const BannarContent = styled(Box)(() => ({
   display: "flex",
